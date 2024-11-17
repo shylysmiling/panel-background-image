@@ -1,0 +1,10 @@
+{
+  "name": "Panel Background Image",
+  "description": "Set image as background for main panel.",
+  "uuid": "panel-background-image@shylysmiling.github.io",
+	"settings-schema": "org.gnome.shell.extensions.panel-background-image",
+  "shell-version": [
+    "47"
+  ],
+	"version": 1
+}

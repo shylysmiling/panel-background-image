@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface domain="panel-image-background">
+  <requires lib="gtk" version="4.0" />
+
+  <object class="AdwPreferencesPage" id="general-page">
+    <property name="title" translatable="yes">General</property>
+    <property name="icon-name">settings-general-symbolic</property>
+
+    <child>
+      <object class="AdwPreferencesGroup">
+        <property name="title" translatable="yes">Images selection</property>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Desktop</property>
+            <property name="subtitle" translatable="yes">Visible in desktop mode</property>
+
+            <child>
+              <object class="PanelImageBackgroundImageChooserButton" id="desktop-mode-image">
+                <property name="valign">center</property>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkButton" id="reset-desktop-mode-image">
+                <property name="icon-name">edit-clear-symbolic</property>
+                <property name="valign">center</property>
+                <property name="tooltip-text" translatable="yes">Reset to default value</property>
+                <style>
+                  <class name="flat" />
+                </style>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+        <child>
+          <object class="AdwActionRow">
+            <property name="title" translatable="yes">Overview</property>
+            <property name="subtitle" translatable="yes">Visible in overview mode</property>
+
+            <child>
+              <object class="PanelImageBackgroundImageChooserButton" id="overview-mode-image">
+                <property name="valign">center</property>
+              </object>
+            </child>
+
+            <child>
+              <object class="GtkButton" id="reset-overview-mode-image">
+                <property name="icon-name">edit-clear-symbolic</property>
+                <property name="valign">center</property>
+                <property name="tooltip-text" translatable="yes">Reset to default value</property>
+                <style>
+                  <class name="flat" />
+                </style>
+              </object>
+            </child>
+
+          </object>
+        </child>
+
+      </object>
+    </child>
+  </object>
+</interface>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gresources>
+	<gresource>
+		<file>ui/imageChooserButton.ui</file>
+		<file>ui/settings.ui</file>
+	</gresource>
+</gresources>

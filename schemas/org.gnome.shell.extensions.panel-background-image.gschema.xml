@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+	<schema path="/org/gnome/shell/extensions/panel-background-image/" id="org.gnome.shell.extensions.panel-background-image">
+		<key name="desktop-mode-image" type="s">
+			<default>""</default>
+			<summary>Background image for desktop mode</summary>
+			<description>The image used as main panel background in desktop mode.</description>
+		</key>
+
+		<key name="overview-mode-image" type="s">
+			<default>""</default>
+			<summary>Background image for overview mode</summary>
+			<description>The image used as main panel background in overview mode.</description>
+		</key>
+	</schema>
+</schemalist>
